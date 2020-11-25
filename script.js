@@ -24,7 +24,7 @@ document.querySelector('.check').addEventListener('click', function () {
     displayMessage('Correct Number!');
     document.querySelector('.number').textContent = secretNumber; // to display secret number in the number area
     document.querySelector('body').style.backgroundColor = '#60b347';
-    document.querySelector('.number').style.width = '30rem';
+    document.querySelector('.number').style.width = '30em';
     if (score > highscore) {
       highscore = score;
       document.querySelector('.highscore').textContent = highscore;
